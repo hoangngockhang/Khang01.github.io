@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo CV</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hoàng Ngọc Khang</h1>
+            <h2>Frontend Designer</h2>
+        </header>
+        <hr>
+        <section id="cv-section">
+            <h3>Tạo CV</h3>
+            <form id="cv-form">
+                <label for="cv-name">Họ và tên:</label>
+                <input type="text" id="cv-name" name="name" required>
+                <label for="cv-address">Địa chỉ:</label>
+                <input type="text" id="cv-address" name="address" required>
+                <label for="cv-phone">Điện thoại:</label>
+                <input type="tel" id="cv-phone" name="phone" required>
+                <label for="personal-info">Thông tin cá nhân:</label>
+                <textarea id="personal-info" name="personal-info" required></textarea>
+                <label for="education">Trình độ học vấn:</label>
+                <textarea id="education" name="education" required></textarea>
+                <label for="skills">Kỹ năng làm việc:</label>
+                <textarea id="skills" name="skills" required></textarea>
+                <label for="experience">Kinh nghiệm làm việc:</label>
+                <textarea id="experience" name="experience" required></textarea>
+                <label for="career-objective">Mục tiêu, phương hướng nghề nghiệp:</label>
+                <textarea id="career-objective" name="career-objective" required></textarea>
+                <label for="talents-interests">Năng khiếu, sở thích cá nhân:</label>
+                <textarea id="talents-interests" name="talents-interests" required></textarea>
+                <button type="submit">Lưu CV</button>
+            </form>
+        </section>
+    </div>
+    <script src="js/create-cv.js"></script>
+</body>
+</html>
